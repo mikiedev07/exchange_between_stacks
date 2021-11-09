@@ -1,5 +1,5 @@
 1. Reading a text file consisting of several lines, each of which contains several 
-(different numbers) of real numbers.
+(different numbers) of real numbers (.
 
 2. Place numbers from each line on a separate stack, implemented on the basis of a singly linked list. 
 The result should be a linear list (array) of such stacks.
@@ -19,3 +19,6 @@ should be executed by pressing one key):
 6. Display of the current state of the stack array on the screen with markings on the 
 source and destination. There should be a case when the number of stacks is too large and 
 scrolling through the stacks array should be implemented.
+
+*You cannot make the stack a reciever or source until you specify its index, 
+otherwise an exception will be thrown.
